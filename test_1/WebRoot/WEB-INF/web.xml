@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	metadata-complete="false"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LogoutController</servlet-name>
+		<servlet-class>controller.LogoutController</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxLoginCheck</servlet-name>
+    <servlet-class>controller.AjaxLoginCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>queryProvinceCity</servlet-name>
+    <servlet-class>controller.queryProvinceCity</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchController</servlet-name>
+    <servlet-class>controller.SearchController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePasswordController</servlet-name>
+    <servlet-class>controller.ChangePasswordController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changepassword</servlet-name>
+    <servlet-class>controller.changepassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BorrowController</servlet-name>
+    <servlet-class>controller.BorrowController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReturnController</servlet-name>
+    <servlet-class>controller.ReturnController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HistoryController</servlet-name>
+    <servlet-class>controller.HistoryController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReturncheckController</servlet-name>
+    <servlet-class>controller.ReturncheckController</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>LogoutController</servlet-name>
+		<url-pattern>/servlet/LogoutController</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxLoginCheck</servlet-name>
+    <url-pattern>/servlet/AjaxLoginCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>queryProvinceCity</servlet-name>
+    <url-pattern>/servlet/queryProvinceCity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchController</servlet-name>
+    <url-pattern>/servlet/SearchController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordController</servlet-name>
+    <url-pattern>/servlet/ChangePasswordController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changepassword</servlet-name>
+    <url-pattern>/servlet/changepassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BorrowController</servlet-name>
+    <url-pattern>/servlet/BorrowController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReturnController</servlet-name>
+    <url-pattern>/servlet/ReturnController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HistoryController</servlet-name>
+    <url-pattern>/servlet/HistoryController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReturncheckController</servlet-name>
+    <url-pattern>/servlet/ReturncheckController</url-pattern>
+  </servlet-mapping>
+
+
+
+
+</web-app>

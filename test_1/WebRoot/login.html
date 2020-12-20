@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/login.js"></script>
+		<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	</head>
+	
+	<body>
+		<div id="loginBig">
+			
+		
+			<div id="loginLogo">
+				<img src="./img/Logo.png" style="margin: 0 auto;" />
+			</div>
+			<div id="loginForm" >
+				<form action="librarylogin.do" method="post" >
+					<p><input type="text" name="userName" id="userName" placeholder="学号" />
+					   
+					</p>
+					<p><input type="password" name="password" id="password" placeholder="密码" />
+								
+					</p>
+					<p><input type="text" name="vcode" id="vcode" placeholder="验证码" />
+						<img src="createVerifyImage.do" id="vcodeImg" onclick="changeImg();" title="看不清，换一个" >
+						
+					</p>
+					
+					<p><input id="autoLogin" type="checkbox" name="autoLogin">
+					<span>一周以内免登录</span>
+					</p>
+					
+					<p><input type="submit" id="btLogin" value="登&nbsp;&nbsp录" />
+					
+					   <span class="auth_err" id="checkError"></span>
+					
+					
+				</form>
+				
+			</div>
+		</div>
+	</body>
+</html>

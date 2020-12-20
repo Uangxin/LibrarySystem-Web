@@ -1,0 +1,23 @@
+#borrowform{
+	padding-top:30px;
+	height: 20px;
+	}
+#searchsbody{
+	text-align: center;
+}
+
+#borrowbookID,#borrowbookName,#borrowchaName,#borrowuserName,#borrowtime,#returntime{
+	height: 40px;
+	
+}
+#jieyue{
+	height:30px;
+	bonder:1px solid #ccc;
+	/* text-indent: 24px; */
+	
+	width:280px;
+	height:35px;
+	background-color:#baccd9;
+	color:#fff;
+	font-weight:bold;
+}

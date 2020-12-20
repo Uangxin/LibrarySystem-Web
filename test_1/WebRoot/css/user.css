@@ -1,0 +1,19 @@
+
+
+#userbody{
+	weith:100%;
+	height: 550px;
+	background-color: #9ACD32;
+}
+#uesebar{
+	width: 8%;
+	height: 50%;
+	background-color: #EFEFEF;
+	/* margin: 10px; */
+	padding-left: 40px;
+}
+
+#uesebar p{
+	text-align: left;
+	font-size: 25px;
+}

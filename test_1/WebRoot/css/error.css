@@ -1,0 +1,34 @@
+body
+{
+	
+	background-image: url(../img/errorback.jpg);
+}
+
+#errorDiv
+{
+	width: 50%;
+	margin: 50px auto;
+	height: 700px;
+	background:#993333;
+	border-radius:50px;//…Ë÷√‘≤Ω«
+}
+
+#errorHit
+{
+	padding-left: 600px;
+	padding-top: 100px;
+}
+
+#errorInfo,
+a,
+#leaveTime
+{
+	color: red;
+	font-weight: bold;
+}
+
+#leaveTime
+{
+	font-size: 20px;
+	margin: 0px 5px;
+}

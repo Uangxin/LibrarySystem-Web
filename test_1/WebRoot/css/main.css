@@ -1,0 +1,151 @@
+body{
+	font: 12px Tohoma;
+	margin: 0px;
+	text-align: center;
+}
+
+a:link,
+a:visited {
+	font-size: 15px;
+	text-decoration: none;
+}
+
+
+/* 澶у鍣ㄥ睘鎬ц缃�*/
+#container{
+	width: 100%;
+	height: 600px;
+	margin: 10px auto;
+	background-color: wheat;
+}
+/* 澶撮儴鍖呭惈瀵艰埅鏍�Logo,鐢ㄦ埛淇℃伅鐨勫潡 灞炴�璁剧疆 */
+#header{
+	width: 100%;
+	height: 120px;
+	background-color: #c04851;
+}
+/* 鍙充笂瑙掔敤鎴蜂俊鎭樉绀哄睘鎬ц缃�*/
+#rightTop{
+	float: right;
+}
+
+#rightTop span{
+	color: red;
+	text-align: center;
+}
+
+/* 涓婚〉闈ogo鍥剧墖Div灞炴�璁剧疆 */
+#mainLogo{
+	float: left;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+
+/* 涓婚〉闈㈠鑸爮灞炴�璁剧疆 */
+#menu{
+	padding: 35px 20px 0 0;
+	
+}
+/* 瀵艰埅鏍忔枃瀛楁娴姩灞炴�璁剧疆,鍏ㄩ儴鍚戝彸娴姩 */
+#menu ul{
+	float: right;
+	list-style: none;
+	margin: 0px;
+	
+	
+}
+/* 瀵艰埅鏍忔枃瀛楀唴瀹规诞鍔ㄨ缃�*/
+#menu ul li {
+	float: left;
+	display: block;
+	line-height: 30px;
+	margin: 0 10px;
+}
+
+#menu ul li a{
+	font-weight: bold;
+	color:white;
+	font-size: 20px;
+	
+}
+
+#menu ul li a:hover{
+	color: black;
+}
+/* 瀵艰埅鏍忔枃瀛楃珫鍚戝垎鍓茬嚎灞炴�璁剧疆 */
+.menuDiv{
+	width: 20px;
+	height: 28px;
+	background: #EFEFEF;
+}
+/* 澶iv鍐呬富浣撳唴瀹圭殑璁剧疆 */
+#banner{
+	/* background: #738856; */
+	/*background:url(../images/mainbody.png) 0 15px no-repeat;*/ 
+	/* swidth: 1000px; */
+	/* float: center; */
+	margin: auto;
+	/* height: 900px; */
+	border-bottom: 5px solid #efefef;
+	clear: both;
+	background-color: #428675;
+}
+/*杞挱鍥惧睘鎬ч珮搴﹀拰瀹藉害璁剧疆 */
+.carousel-inner img {
+	      width: 100%;
+	      height: 80%;
+	  }
+	  
+	  
+#mainThree{
+	width: 100%;
+	height: 300px;
+	
+}
+#Three1search{
+	float: left;
+	margin: 10px;
+	width: 30%;
+	height: 200px;
+	background-color: #8A2BE2;
+	border-radius:10px
+}
+#Three2return{
+	float: left;
+	margin:10px;
+	width: 30%;
+	height: 200px;
+	background-color: white;
+	border-radius:10px
+}
+#Three3message{
+	float: left;
+	margin: 10px;
+	width: 30%;
+	height: 200px;
+	background-color: #F5DEB3;
+	border-radius:10px
+}
+#mainThree p{
+	text-align: center;
+	font-size: 30px;
+	margin:15% auto;
+	font-family: "榛戜綋";
+}
+#mainThree a{
+	font-size: 40px;
+	font-family: "榛戜綋";
+}
+#mainTail{
+	background-color: #6D6D6D;
+	width:100%;
+	height: 40px;
+}
+
+#notneed{
+	background-color: #CCCCCC;
+}
+#notneed p{
+	text-align: center;
+	font-size: 10px;
+}
