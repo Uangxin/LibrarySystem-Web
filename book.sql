@@ -1,0 +1,10 @@
+INSERT INTO `book` (`bookID`, `bookName`, `bookCategory`, `bookIntroduction`) VALUES ('1', '我所理解的生活', '文学', '在本书中2013年三十岁的韩寒分享了个人成长经历，谈及感情、家庭、偶像等话题。第一次\r\n全方位地向读者展示生活中真实的韩寒，以及他对生活的具体理解。');
+INSERT INTO `book` (`bookID`, `bookName`, `bookCategory`, `bookIntroduction`) VALUES ('10', '穆斯林的葬礼', '小说', '《穆斯林的葬礼》是霍达创作的一部长篇小说，该小说以回族手工匠人梁亦清的玉器作坊奇珍斋升沉起伏为主线，在历史的背景下描写梁家三代人不同的命运变迁，表现了主人公为追求理想和事业，为完善自身素质所发出的蓬勃不息的命运意识。');
+INSERT INTO `book` (`bookID`, `bookName`, `bookCategory`, `bookIntroduction`) VALUES ('2', '撒野', '文学', '超人气作者巫哲至高人气代表作');
+INSERT INTO `book` (`bookID`, `bookName`, `bookCategory`, `bookIntroduction`) VALUES ('3', '万物皆有欢喜处', '社科', '《万物皆有欢喜处》记录生活中那些平凡而富有诗意的手艺人，用心体味一份纯真。她所关\r\n注的不仅是手艺人本身，而是专注手艺背后带来的宁静。听手艺人的故事，感觉置身于林中，林\r\n中安静，但却有风。');
+INSERT INTO `book` (`bookID`, `bookName`, `bookCategory`, `bookIntroduction`) VALUES ('4', 'AI智能', '学科', '《AI智能》介绍了大热的“人工智能”在营销中的具体应用场景。 大数据和机器学习的概念对大多数人来说并不陌生，而在营销如何使用却一直一知半解，语焉不详。营销行业未来最缺乏的应该就是和数据工作者对话的营销人，多看几遍这本书，结合正在进行的工作实践，你将会觉得投入阅读的时间物有所值。');
+INSERT INTO `book` (`bookID`, `bookName`, `bookCategory`, `bookIntroduction`) VALUES ('5', '新奇手工', '生活', '这是一本教你写手账、整理手账，以及如何挑到适合自己的手账和文具的书。');
+INSERT INTO `book` (`bookID`, `bookName`, `bookCategory`, `bookIntroduction`) VALUES ('6', '能力陷阱', '社科', '  我们很乐于去做那些我们擅长的事，于是就会一直去做，最终就使得我们会一直擅长那些事。');
+INSERT INTO `book` (`bookID`, `bookName`, `bookCategory`, `bookIntroduction`) VALUES ('7', '乌合之众', '文学', '《乌合之众》是社会心理学领域中最具影响力的著作，作者层层分析，逐步推进，明确指出个人一旦融入群体，他的个性便会被湮没，群体的思想便会占据绝对的统治地位，而与此同时，群体的行为也会表现出排斥异议，极端化、情绪化及低智商化等特点，进而对社会产生破坏性的影响。');
+INSERT INTO `book` (`bookID`, `bookName`, `bookCategory`, `bookIntroduction`) VALUES ('8', '1984', '政治小说', '《1984》是一部杰出的政治寓言小说，也是一部幻想小说。作品刻画了人类在极权主义社会的生存状态，有若一个永不褪色的警示标签，警醒世人提防这种预想中的黑暗成为现实。历经几十年，其生命力益显强大，被誉为20世纪影响最为深远的文学经典之一。');
+INSERT INTO `book` (`bookID`, `bookName`, `bookCategory`, `bookIntroduction`) VALUES ('9', '月亮和六便士', '小说', '《明朝那些事儿》讲述从1344年到1644年，明朝三百年间的历史。作品以史料为基础，以年代和具体人物为主线，运用小说的笔法，对明朝十七帝和其他王公权贵和小人物的命运进行全景展示，尤其对官场政治、战争、帝王心术着墨最多。作品也是一部明朝政治经济制度、人伦道德的演义。');

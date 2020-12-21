@@ -1,0 +1,10 @@
+INSERT INTO `t_user` (`userName`, `password`, `chrName`) VALUES ('001', '123', '蒋');
+INSERT INTO `t_user` (`userName`, `password`, `chrName`) VALUES ('002', '321', '李');
+INSERT INTO `t_user` (`userName`, `password`, `chrName`) VALUES ('003', '123', '王');
+INSERT INTO `t_user` (`userName`, `password`, `chrName`) VALUES ('004', '123', '张');
+INSERT INTO `t_user` (`userName`, `password`, `chrName`) VALUES ('005', '123', '孙');
+INSERT INTO `t_user` (`userName`, `password`, `chrName`) VALUES ('006', '123', '赵');
+INSERT INTO `t_user` (`userName`, `password`, `chrName`) VALUES ('007', '123', '钱');
+INSERT INTO `t_user` (`userName`, `password`, `chrName`) VALUES ('008', '123', '周');
+INSERT INTO `t_user` (`userName`, `password`, `chrName`) VALUES ('009', '123', '吴');
+INSERT INTO `t_user` (`userName`, `password`, `chrName`) VALUES ('010', '123', '郑');
